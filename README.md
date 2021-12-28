@@ -25,15 +25,25 @@ Methods: (Public)
 	- destructor for the class. used to maintain memory
 - Append
 	- insert node at the end of the linked list
+	- return type: void
 - Insert
 	- insert node at given position in the linked list
+	- return type: void
 - Remove 
 	- remove the element at the given position in the linked list
+	- return type: void
 - Replace
 	- replace the element at the given position in the list 
+	- return type: void
 - GetLength
 	- return the current length of the list 
+	- return type: unsigned
 - isEmpty
 	- determine if the list is currently empty
+	- return type: bool
 - Clear 
 	- clears all the nodes of the list
+	- return type: void
+- GetElement
+	- returns the value of the node at the given position
+	- return type: typename T
